@@ -36,19 +36,9 @@
             text-decoration: none;
             font-weight: bold;
             font-size: 1em;
-            cursor: pointer;
         }
         .button:hover {
             background-color: #5c4433;
-        }
-        .content {
-            display: none;
-            margin: 20px auto;
-            max-width: 600px;
-            text-align: left;
-            background-color: #1c1c1c;
-            padding: 20px;
-            border-radius: 10px;
         }
         footer {
             margin-top: 50px;
@@ -56,35 +46,15 @@
             color: #999;
         }
     </style>
-    <script>
-        function toggleContent(id) {
-            var content = document.getElementById(id);
-            content.style.display = content.style.display === "none" ? "block" : "none";
-        }
-    </script>
 </head>
 <body>
     <img src="on_point_logo.png" alt="On Point Logo">
     <h1>On Point</h1>
     <p>Dobrodošli! Jaz sem Sara – strokovnjakinja za digitalno oglaševanje in kreativne vsebine.</p>
 
-    <button class="button" onclick="toggleContent('reels')">Izdelava Reelsov in reklamnih videjev</button>
-    <div id="reels" class="content">
-        <p>Ustvarjam profesionalne, kratke in udarne videe, ki pritegnejo pozornost. Idealen za Instagram, TikTok in oglase.</p>
-        <img src="reels_sample.jpg" alt="Primer videja" style="width:100%; border-radius: 8px;">
-    </div>
-
-    <button class="button" onclick="toggleContent('social')">Postavitev socialnih omrežij</button>
-    <div id="social" class="content">
-        <p>Pomagam pri strateškem zagonu profilov, grafični podobi, biografiji, strukturi objav in povezovanju z občinstvom.</p>
-        <img src="social_sample.jpg" alt="Postavitev omrežij" style="width:100%; border-radius: 8px;">
-    </div>
-
-    <button class="button" onclick="toggleContent('consulting')">Svetovanje & Strategije</button>
-    <div id="consulting" class="content">
-        <p>Osebno svetovanje glede rasti znamke, strukturiranja kampanj, analiz in priporočil za učinkovito oglaševanje.</p>
-        <img src="consulting_sample.jpg" alt="Svetovanje" style="width:100%; border-radius: 8px;">
-    </div>
+    <a href="mailto:pavlassara@gmail.com?subject=Reels ali video oglas" class="button">Izdelava Reelsov in reklamnih videjev</a>
+    <a href="socialna-omrezja.html" target="_blank" class="button">Postavitev socialnih omrežij</a>
+    <a href="mailto:pavlassara@gmail.com?subject=Svetovanje" class="button">Svetovanje & Strategije</a>
 
     <footer>
         📩 Piši mi: <a href="mailto:pavlassara@gmail.com" style="color: #d4af37;">pavlassara@gmail.com</a>
